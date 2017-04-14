@@ -3,6 +3,10 @@ html, body {
 	width: 100%!important;
 }
 
+body {
+	font-family: "soleil", sans-serif!improtant;
+}
+
 /* ————— Home —————————————————————————————— */
 
 .home .container {
