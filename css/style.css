@@ -5,27 +5,29 @@ html, body {
 
 body {
 	font-family: "soleil", sans-serif!important;
+	color: #444!important;
 }
 h1 {
-	font-size: 15.5px!important;
-	line-height: 18px!important;
-	text-transform: uppercase!important;
-	font-weight: 600!important;
-	letter-spacing: 0.3px!important;
-	margin-bottom: 30px!important;
+	font-size: 14.5px!important;
+    line-height: 18px!important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+    letter-spacing: 0.6px!important;
+    margin-bottom: 30px!important;
 }
 h2 {
 	font-size: 24px!important;
 	line-height: 32px!important;
-	font-weight: 400!important;
+	font-weight: 300!important;
 	letter-spacing: 0.3px!important;
 	margin-bottom: 20px!important;
 }
 p {
 	font-size: 14.5px!important;
 	line-height: 24px!important;
-	font-weight: 400!important;
+	font-weight: 300!important;
 	margin-bottom: 20px!important;
+	color: #777;
 }
 p.site {
 	font-size: 14.5px!important;
@@ -35,16 +37,19 @@ ul.tags {
 	margin-top: 10px!important;
 }
 ul.tags li {
-	display: inline;
-	font-size: 12.5px!important;
-	line-height: 22px!important;
-	text-transform: uppercase!important;
-	font-weight: 600!important;
-	letter-spacing: 0.3px!important;
-	margin-right: 10px;
+	display: inline-block;
+    font-size: 11.5px!important;
+    line-height: 22px!important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+    letter-spacing: 0.5px!important;
+    margin-right: 10px;
 }
 ul.tags li {
 	color: skyblue!important;
+}
+.koru h1, .koru ul.tags li {
+	color: #47b3d0!important;
 }
 
 /* ————— Home —————————————————————————————— */
@@ -231,6 +236,15 @@ ul.tags li {
 p#back-top {
     margin-bottom: 80px!important;
     text-align: center!important;
+    font-size: 12.5px!important;
+	line-height: 22px!important;
+	text-transform: uppercase!important;
+	font-weight: 600!important;
+	letter-spacing: 0.3px!important;
+}
+p#back-top a {
+	color: #444!important;
+	text-decoration: none!important;
 }
 #back-top i.fa.fa-angle-up {
     display: block;
@@ -245,15 +259,15 @@ p#back-top {
     left: 50px;
     z-index: 999999!important;
     font-family: "brandon-grotesque", sans-serif!important;
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.2px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
 }
 
 .navigation {
 	position: fixed!important;
-	top: 43px;
+	top: 41px;
 	right: 50px;
 	z-index: 999999!important;
 }
